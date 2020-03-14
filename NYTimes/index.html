@@ -23,13 +23,35 @@
   </div>
 
   <div class="row justify-content-center">
-    <div id="form" class="col-lg-10 col-md-12">
-
-    </div>
-   </div>
+    <ul id="form" class="col-lg-10 col-md-12">
 
   
 
+  <li><label for="search">Search Term</label></li>
+  <li><input type="text" id="search"></li>
+
+  <li><label for="records">Number of Records to Retrieve</label></li>
+    <li><input type="number" id="records"></li>
+
+  <li><label for="startYear">Start Year (optional)</label></li>
+    <li><input type="number" id="startYear"></li>
+
+  <li><label for="endYear">End Year (optional)</label></li>
+    <li><input type="number" id="endYear"></li>
+
+   <li> <button id="buttonSearch">Search</button>
+    <button id="buttonClear">Clear Results</button></li>
+    </ul>
+
+
+   </div >
+
+   <div class="row justify-content-center">
+    <h2 id="articles-header" class="col-lg-10 col-md-12" >Top Articles</h2>
+    <div id="topArticles" class="col-lg-10 col-md-12"></div>
+   <div>
+
+   </div>
   </div>
 
   
